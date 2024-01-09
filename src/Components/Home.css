@@ -1,0 +1,78 @@
+#Home {
+  height: calc(100% - 60px);
+  width: 100%;
+  position: relative;
+  color: white;
+}
+
+#VideoCard {
+  height: 100%;
+  width: 100%;
+}
+
+#VideoCard video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#Content {
+  width: 100%;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+#Content h2 {
+  width: 100%;
+  font-size: 5vmax;
+  margin-bottom: 25px;
+}
+
+#Content span
+{
+  display: flex;
+  column-gap: 10px;
+}
+
+#Content span button:first-child
+{
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 2px solid white;
+  background-color: #749392;
+  color: white;
+
+}
+#Content p
+{
+
+  font-weight: 300;
+  font-size: 2.5vmax;
+  line-height: 1.7vmax;
+}
+
+
+#Content span
+{
+  margin-top: 2.2vmax;
+}
+
+
+#Content span button:last-child
+{
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 2px solid white;
+  background-color: #bebc82;
+  color: black;
+
+}
